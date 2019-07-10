@@ -3,6 +3,9 @@ import React from "react";
 import ReactNative from "react-native";
 
 //create a componenet
+const App = () => {
+  return <Text>Hello World!</Text>;
+};
 
 //render component to a device
 
