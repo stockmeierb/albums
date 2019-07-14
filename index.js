@@ -7,7 +7,9 @@ import { Text, AppRegistry } from "react-native";
 // import {name as appName} from './app.json';
 
 //create a componenet
-const App = () => <Text>Hello World!</Text>;
+const App = () => {
+  return <Text>Hello World!</Text>;
+};
 
 //render component to a device
 AppRegistry.registerComponent("albums", () => App);
