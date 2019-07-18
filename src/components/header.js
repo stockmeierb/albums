@@ -14,6 +14,8 @@ const Header = () => {
 
 const styles = {
   viewStyle: {
+    alignItems: 'center',
+    justifyContent: 'center',
     backgroundColor: "#F8F8F8"
   },
   textStyle: {
