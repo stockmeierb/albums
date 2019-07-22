@@ -29,7 +29,7 @@ const AlbumDetail = ({ album }) => {
         <Image source={{ uri: image }} style={imageStyle} />
       </CardItem>
       <CardItem>
-        <Button />
+        <Button onPress={() => console.log("Pressed!")} />
       </CardItem>
     </Card>
   );
